@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Резюме</title>
-    <link rel="stylesheet" href="style5333.css">
-    <link rel="stylesheet" href="fm.revealator.jquery.min.css">
+    <link rel="stylesheet" href="style/style5333.css">
+    <link rel="stylesheet" href="style/fm.revealator.jquery.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic" rel="stylesheet">
   </head>
   <body>
@@ -19,11 +19,13 @@
           </div>  
         </a>
         <div class="top_menu" data-hamburger-menu>
-          <nav class="navigation menu ">
-            <il class="navigation_item"><a href="#about_me" class= "menu_item link heart_icon" data-anchor>Обо мне</a></il>
-            <il class="navigation_item"><a href="#my_hobby" class= "menu_item link hobby_icon" data-anchor>Мое хобби</a></il>
-            <il class="navigation_item"><a href="#favourite_serials" class= "menu_item link video_icon" data-anchor>Любимые сериалы</a></il>
-            <il class="navigation_item"><a href="#" class="menu_item link add_icon" id="serial_add_button">Добавить сериал</a></il>
+          <nav class="navigation menu fixed">
+            <ul>
+              <li class="navigation_item"><a href="#about_me" class="menu_item slow_scroll heart_icon">Обо мне</a></li>
+              <li class="navigation_item"><a href="#my_hobby" class="menu_item slow_scroll hobby_icon">Мое хобби</a></li>
+              <li class="navigation_item"><a href="#favourite_serials" class="menu_item slow_scroll video_icon">Любимые сериалы</a></li>
+              <li class="navigation_item"><a href="#" class="menu_item add_icon" id="serial_add_button">Добавить сериал</a></li>
+            </ul>
           </nav>
         </div>  
         <div class="background"></div>  
@@ -31,10 +33,10 @@
       
       <div class="container">
         <div class="container_about_us">
-          <div class="left_column revealator-slideup revealator-once" id="hid">
+          <div class="left_column revealator-slideup revealator-once">
             <div class="image">
               <img 
-              src="margo.jpg" 
+              src="image/margo.jpg" 
               alt="my_photo"
               /> 
             </div> 
@@ -57,7 +59,7 @@
               </ul> 
             </div>
           </div>   
-          <div class="rigt_column revealator-slideup revealator-once" id="hid">  
+          <div class="rigt_column revealator-slideup revealator-once">  
              <blockquote class= "quotation">
                <span class="quote_text">Ошибки — это знаки препинания жизни, без которых, как и в тексте, не будет смысла.</span>
                <br>
@@ -86,12 +88,12 @@
       </div> 
 
       <div class="container_serials">
-        <div class="container_serials_content" id="hid">  
+        <div class="container_serials_content">  
           <h2 class="serial_title revealator-slideup revealator-once" id="favourite_serials">Любимые сериалы</h2>
           <div class="container_serial_info_block">
             <a href="/serial/duty_angel" class="serial_info_block_link  revealator-slideup revealator-once"></a>      
               <img
-              src="serial_duty_angel.jpg" 
+              src="image/serial_duty_angel.jpg" 
               alt="duty_angel"
               /> 
             <h4 class="serial_name revealator-slideup revealator-once">Дежурный ангел</h4>
@@ -102,7 +104,7 @@
           <div class="container_serial_info_block">
             <a href="/serial/nanolove" class="serial_info_block_link revealator-slideup revealator-once"></a>      
               <img
-              src="serial__nanolove.jpg" 
+              src="image/serial__nanolove.jpg" 
               alt="nanolove"
               /> 
             <p class="serial_name revealator-slideup revealator-once">Нанолюбовь</p>
@@ -115,7 +117,7 @@
           <div class="container_serial_info_block">
             <a href="/serial/margosha" class="serial_info_block_link  revealator-slideup revealator-once"></a>      
               <img
-              src="serial_margosha.jpg" 
+              src="image/serial_margosha.jpg" 
               alt="margosha"
               /> 
             <p class="serial_name  revealator-slideup revealator-once">Маргоша</p>
@@ -126,7 +128,7 @@
           <div class="container_serial_info_block last">
             <a href="/serial/have_not_nice" class="serial_info_block_link  revealator-slideup revealator-once"></a>      
               <img
-              src="serial_not_born_beautiful.jpg" 
+              src="image/serial_not_born_beautiful.jpg" 
               alt="not_born_beautiful"
               /> 
             <p class="serial_name  revealator-slideup revealator-once">Не родись красивой</p>
@@ -142,7 +144,7 @@
           <div class="container_serial_info_block">
             <a href="/serial/news" class="serial_info_block_link"></a>      
               <img
-              src="serial_news.jpg" 
+              src="image/serial_news.jpg" 
               alt="news"
               /> 
             <p class="serial_name">Новости</p>
@@ -153,7 +155,7 @@
           <div class="container_serial_info_block">
             <a href="/serial/i_go_you_seek_out" class="serial_info_block_link"></a>      
               <img
-              src="serial_i_go_you_seek_out.jpg" 
+              src="image/serial_i_go_you_seek_out.jpg" 
               alt="i_go_you_seek_out"
               /> 
             <p class="serial_name">Выхожу тебя искать</p>
@@ -167,7 +169,7 @@
           <div class="container_serial_info_block">
             <a href="/serial/kadetism" class="serial_info_block_link"></a>      
               <img
-              src="serial_kadetism.jpg" 
+              src="image/serial_kadetism.jpg" 
               alt="kadetism"
               /> 
             <p class="serial_name">Кадетство</p>
@@ -178,7 +180,7 @@
           <div class="container_serial_info_block last">
             <a href="/serial/youth" class="serial_info_block_link"></a>      
               <img
-              src="serial_youth.jpg" 
+              src="image/serial_youth.jpg" 
               alt="youth"
               /> 
             <p class="serial_name">Молодежка</p>
@@ -242,11 +244,11 @@
         <div class="copyright_text">© 2006-2018 Поволжский государственный технологический университет, ФГБОУ ВО «ПГТУ»
         </div>
       </div>
-      <script src="jqeri.js"></script>
-      <script src="fm.revealator.jquery.min.js"></script>
-      <script src="smoothScroll.js"></script>
-      <script src="main5333.js"></script>
-      <!--<script src="scripts_main.js"></script>-->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/fm.revealator.jquery.min.js"></script>
+      <script src="js/smoothScroll.js"></script>
+      <script src="js/main5333.js"></script>
+      <script src="main_jQ5333.js"></script>
   </body>  
 </html>
 
