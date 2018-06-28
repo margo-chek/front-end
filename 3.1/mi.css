@@ -1,0 +1,148 @@
+.Top_menu {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 2320px;
+  z-index: 79;
+}
+.video_icon {
+  background-image: url("video_icon.png");
+  position: absolute;
+  left: 800px;
+  top: 17px;
+  width: 16px;
+  height: 16px;
+  z-index: 78;
+}
+.Любимые_фильмы {
+  font-size: 19px;
+  font-family: "Georgia";
+  color: rgb(51, 51, 51);
+  line-height: 1.684;
+  text-align: left;
+  position: absolute;
+  left: 825.791px;
+  top: 41.42px;
+  z-index: 77;
+}
+.hobby_icon {
+  background-image: url("hobby_icon.png");
+  position: absolute;
+  left: 640px;
+  top: 18px;
+  width: 16px;
+  height: 16px;
+  z-index: 76;
+}
+.Мое_хобби {
+  font-size: 19px;
+  font-family: "Georgia";
+  color: rgb(51, 51, 51);
+  line-height: 1.684;
+  text-align: left;
+  position: absolute;
+  left: 665px;
+  top: 9.002px;
+  z-index: 75;
+}
+.about_me_icon {
+  background-image: url("about_me_icon.png");
+  position: absolute;
+  left: 501px;
+  top: 17px;
+  width: 14px;
+  height: 16px;
+  z-index: 74;
+}
+.Обо_мне {
+  font-size: 19px;
+  font-family: "Georgia";
+  color: rgb(245, 245, 245);
+  line-height: 1.684;
+  text-align: left;
+  position: absolute;
+  left: 524px;
+  top: 9.002px;
+  z-index: 73;
+}
+.button_background {
+  background-image: url("button_background.png");
+  position: absolute;
+  left: 480px;
+  top: 0px;
+  width: 140px;
+  height: 50px;
+  z-index: 72;
+}
+
+.Photo {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 2320px;
+  z-index: 70;
+}
+.Слой_2 {
+  background-image: url("Слой 2.png");
+  position: absolute;
+  left: 307px;
+  top: 197px;
+  width: 714px;
+  height: 476px;
+  z-index: 69;
+}
+.Прямоугольник__скругл__углы_1 {
+  border-radius: 5px;
+  background-color: rgb(19, 45, 54);
+  position: absolute;
+  left: 480px;
+  top: 260px;
+  width: 330px;
+  height: 350px;
+  z-index: 68;
+}
+
+.Top {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 2320px;
+  z-index: 5;
+}
+.Слой_4 {
+  background-image: url("Слой 4.png");
+  opacity: 0.502;
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  width: 1920px;
+  height: 400px;
+  z-index: 4;
+}
+.background {
+  background-image: url("background.png");
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  width: 1920px;
+  height: 400px;
+  z-index: 3;
+}
+.Мы_берем_на_себя_много__потому_что_мало_чего_бо {
+  font-size: 28px;
+  font-family: "Georgia";
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 870.963px;
+  top: 334.3px;
+  width: 506px;
+  height: 63px;
+  z-index: 8;
+}
+

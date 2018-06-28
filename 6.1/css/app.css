@@ -453,6 +453,10 @@ i.icon-cancel
 	text-align: center;
 }
 
+img {
+    /* max-width: 100%; */
+}
+
 .link
 {
 	font-weight: bold;
@@ -476,7 +480,7 @@ i.icon-cancel
 .top-bar.nav_container ul
 {
 	background-color: #fff;
-	padding: 0 5%;
+	/*padding: 0 5%;*/
 }
 
 .top-bar.ending, .top-bar.ending ul
@@ -579,3 +583,111 @@ i.icon-cancel
         font-size: 53px;
     }
 }
+
+ .container 
+ {
+    max-width: 320px;
+    margin: 0 auto;
+    display: none;
+}
+
+@media screen and (max-width: 63.9375em)
+{
+    .show-for-large 
+    {
+        display: block !important; 
+    }
+}
+
+.navbar_container 
+    {
+        height: auto;
+    }
+
+
+@media screen and (max-width: 640px)
+{
+    .cell.auto 
+    {
+        flex: none; 
+    }
+    .grid-x > .auto 
+    {
+        width: 100%;
+    }
+}
+/*
+@media screen and (max-width: 720px)
+{
+    .container {
+      max-width: 320px;
+      margin: 0 auto;
+      display: block;
+    }
+    .header {
+      height: 55px;
+      background-color: #333;
+      position: relative;
+    }
+    .nav {
+      width: 100%;
+      box-shadow: inset 0 5px rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 100;
+      display: none;
+    }
+    .nav__item {
+      display: block;
+      height: 56px;
+      font-weight: bold;
+      color: #fff;
+      font-size: 14px;
+      line-height: 56px;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+      background-color: #4583d8;
+      transition: background-color 0.1s linear, color 0.1s linear;
+    }
+    .nav__item:not(:first-of-type) {
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .nav__item:not(:last-of-type) {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .nav__item:last-of-type {
+      box-shadow: inset 0 -5px 10px -5px rgba(0, 0, 0, 0.4);
+    }
+    .nav__item:hover {
+      background-color: #2768c1;
+    }
+    .nav__item:active {
+      background-color: #2768c1;
+      color: #fff;
+    }
+    .nav-burger {
+      display: block;
+      width: 25px;
+      height: 23px;
+      cursor: pointer;
+      color: transparent;
+      font-size: 0;
+      background: url("../img/icon-menu.svg") no-repeat;
+      position: absolute;
+      top: 16px;
+      right: 20px;
+      z-index: 1;
+    }
+    .nav-burger__checkbox {
+      display: none;
+    }
+    .nav-burger__checkbox:checked + .nav-burger {
+      background-image: url("../img/icon-cross.svg");
+    }
+    .nav-burger__checkbox:checked ~ .nav {
+      display: block;
+    }
+}
+
